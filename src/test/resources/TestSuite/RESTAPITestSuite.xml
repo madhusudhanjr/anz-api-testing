@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="REST API Test Suite" preserve-order="true"
+	thread-count="1">
+
+	<parameter name="baseURI"
+		value="http://parabank.parasoft.com/parabank/services/bank" />
+	<parameter name="customerID" value="12212" />
+
+	<test name="Customer Centric Operations">
+		<classes>
+			<class name="nz.co.anz.api.tests.CustomerDetailsTest" />
+		</classes>
+	</test>
+
+</suite>
