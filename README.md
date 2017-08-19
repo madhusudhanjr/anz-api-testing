@@ -8,7 +8,9 @@ The test suite involves testing customer, accounts and position based GET calls 
 TestData:
 
 Endpoint Address: http://parabank.parasoft.com/parabank/services/bank
+
 WADL: http://parabank.parasoft.com/parabank/services/bank?_wadl
+
 Swagger: http://parabank.parasoft.com/parabank/services/bank/swagger.json
 
 Note: Please make sure response content type is set to “json”.
@@ -32,6 +34,7 @@ Note: You can use customer no # 12212 for your tests.
 Run the the test suite file as TestNG suite
 
 Test Suite xml File: src/test/resources/TestSuite/RESTAPITestSuite.xml
+
 Added Default Test Execution Report: RESTAPI_TestExecution_Report.html
 
 
